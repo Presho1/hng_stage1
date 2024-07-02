@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+/>
+<body>
+    <section>
+        <nav>
+            <a href="" class="personal__logo">Precious Omisakin</a>
+            <ul class="nav__link--list">
+                <li class="nav__link">
+                    <a href="#languages" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black
+                    ">Languages</a>
+                </li>
+                <li class="nav__link">
+                    <a href="mailto:preciousolayinka8@gmail.com" class="
+                        nav__link--anchor
+                        nav__link--anchor-primary
+                    ">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-1">
+            <div data-testid="about_me" class="about-me__info row">
+                <div class="about-me__info--container">
+                    <figure class="about-me__picture--mask">
+                        <img src="./assets/hngprofile.jpg" class="about-me__picture" alt="Picture of Me!" data-testid="slackProfilePicture" width="400" height="400" >
+                    </figure>
+                    <h1  data-testid="slackDisplayName" class="about-me__info--title">
+                        Hey! I'm <span class="text-purple">Precious Omisakin</span>&nbsp;<span class="wave">👋🏾</span>
+                    </h1>
+                    <p class="about-me__info--para">
+                        I am a passionate and enthusiastic <strong class="text--purple"> Frontend Developer</strong> dedicated to crafting immersive digital experiences.
+                        With a blend of creativity and technical expertise, I specialize in bringing designs to life and delivering seamless user interfaces
+                    </p>
+                    <div class="about-me__links">
+                        <a href="https://www.linkedin.com/in/precious-omisakin/" target="_blank" class="about-me__link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Presho1" target="_blank" class="about-me__link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a data-testid="slackEmail" href="mailto:preciousolayinka8@gmail.com" target="_blank" class="about-me__link">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p style="padding-top: 20px;">Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+                    <p>Current Day: <span data-testid="currentDay"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-testid="goals" >
+        <div class="row">
+            <div class="container">
+                <h1 class="section__title">My Tech Goals for the <span class="text--purple">Next 2 Years:</span></h1>
+                <section class="goals" data-testid="skill-development">
+                    <h2>Skill Development</h2>
+                    <ul>
+                        <li class="goal_list">Learn Advanced JavaScript</li>
+                        <li class="goal_list">Master Backend Development</li>
+                        <li class="goal_list">Explore DevOps</li>
+                    </ul>
+                </section>
+                <section class="goals" data-testid="project-work">
+                    <h2>Project Work</h2>
+                    <ul>
+                        <li class="goal_list">Build a Full-Stack Application</li>
+                        <li class="goal_list">Contribute to Open Source</li>
+                    </ul>
+                </section>
+                <section class="goals" data-testid="certifications">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li class="goal_list">Obtain AWS Certification</li>
+                        <li class="goal_list">Complete JavaScript Certification</li>
+                    </ul>
+                </section>
+                <section class="goals" data-testid="networking-community">
+                    <h2>Networking and Community</h2>
+                    <ul>
+                        <li class="goal_list">Attend Tech Conferences</li>
+                        <li class="goal_list">Engage in Online Communities</li>
+                    </ul>
+                </section>
+                <section class="goals" data-testid="career-advancement">
+                    <h2>Career Advancement</h2>
+                    <ul>
+                        <li class="goal_list">Apply for Senior Developer Positions</li>
+                        <li class="goal_list">Leadership Training</li>
+                    </ul>
+            
+                </section>
+            </div>
+        </div>
+    </section>
+    <section data-testid="languages" id="languages">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">This is my <span class="text--purple">technology stack</span></h1>
+                <div class="language__list">
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" class="language__img" alt="Html Logo">
+                        </figure>
+                        <span class="language__name">HTML</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" class="language__img" alt="CSS Logo">
+                        </figure>
+                        <span class="language__name">CSS</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" class="language__img" alt="JavaScript Logo">
+                        </figure>
+                        <span class="language__name">JavaScript</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/bootstrap.png" class="language__img" alt="Bootstrap Logo">
+                        </figure>
+                        <span class="language__name">Bootstrap</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/sass.png" class="language__img" alt="Sass Logo">
+                        </figure>
+                        <span class="language__name">Sass</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/react.png" class="language__img" alt="React Logo">
+                        </figure>
+                        <span class="language__name">React JS</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/nodejs.png" class="language__img" alt="Node JS Logo">
+                        </figure>
+                        <span class="language__name">Node JS</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/mongodb.png" class="language__img" alt="MongoDB Logo">
+                        </figure>
+                        <span class="language__name">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-testid="links">
+        <div class="goals-row">
+            <div class="container">
+                <h1 class="section__title">Some Useful <span class="text--purple">Links</span></h>
+                <p style="display: flex;">
+                    <a  href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+                </p>
+                <p style="display: flex;">
+                    <a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a></p>
+                <p style="display: flex;">
+                    <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></p>
+                </p>
+                    
+            </div>
+        </div>
+    </section>
+    <footer data-testid="footer">
+        <div class="row footer__row">
+            <div data-testid="social-handles" class="footer__social--list">
+                <a href="https://github.com/Presho1" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                ">Github</a>
+                <a href="https://www.linkedin.com/in/precious-omisakin/" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                ">LinkedIn</a>
+                <a href="mailto:preciousolayinka8@gmail.com" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                ">Email</a>
+            </div>
+            <div class="footer__copyright">Copyright © 2023 Precious Omisakin</div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html> 
